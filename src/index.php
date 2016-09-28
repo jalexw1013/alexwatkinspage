@@ -18,6 +18,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body data-spy="scroll" data-target="#navbar-main" style="font-size: 0;">
         <a id="index" class="navLinkTarget"></a>
@@ -78,7 +79,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                     <a id="projects" class="navLinkTarget"></a>
                     <div class="experienceContainer" style="font-size: 0;max-width: 1500px;margin-bottom: 20px;">
                         <h1 class="center">Projects</h1><br />
-                        <ul class="nav nav-tabs center" style="border-bottom: 0;font-size: 14px;display: inline-block;margin-top: 20px;">
+                        <!--<ul class="nav nav-tabs center" style="border-bottom: 0;font-size: 14px;display: inline-block;margin-top: 20px;">
                             <li id="projectButton1" role="presentation" class="active">
                                 <a href="javascript:showProject(1)" id="projectLink1" class="activeSpecial">Clothes Log</a>
                             </li>
@@ -134,7 +135,183 @@ This file except where otherwise noted is copyright by Alex Watkins.
                                     <h3>Links</h3>
                                     <p><a target="_blank" href="https://itunes.apple.com/ie/app/convert-colors/id946062682?mt=8">Convert Colors on the App Store</a></p>
                                 </div>
+                            </div>-->
+                        <!-- HPC Reaearch -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject5 {
+                                    display: none;
+                                }
+                            </style>
+                            <h1>High Performance Computing Research</h1>
+                            <span id="clickMeProject5" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject5">Description</h3>
+                                <p>In this project I explored a new way to implement sorting algorithms using vector instructions, specifically the Intel AVX2 instruction set. Conventional implementations use the classical Batcher's algorithm. This approach adds significant overhead. I eliminated this overhead.</p>
                             </div>
+                            <div class="hiddenDataProject5">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>I worked on a team with one other undergrad and a professor on this project. Most code was implemented by myself then compared and deliberated with the rest of the team.</p>
+                                    <h3>Links</h3>
+                                    <p>This project can be viewed on <a href="http://github.com/ogreen/avx-sort">GitHub</a>. Please contact me for more information on this project.</p>
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject5").click(function(){
+                                        $(".hiddenDataProject5").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- Robo Jackets -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject1 {
+                                    display: none;
+                                }
+                            </style>
+                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject1">Description</h3>
+                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                            </div>
+                            <div class="hiddenDataProject1">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>This entire application was designed and programmed by myself.</p>
+                                    <h3>Links</h3>
+                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                </div>
+                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
+                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject1").click(function(){
+                                        $(".hiddenDataProject1").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- Clothes Log -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject1 {
+                                    display: none;
+                                }
+                            </style>
+                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject1">Description</h3>
+                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                            </div>
+                            <div class="hiddenDataProject1">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>This entire application was designed and programmed by myself.</p>
+                                    <h3>Links</h3>
+                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                </div>
+                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
+                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject1").click(function(){
+                                        $(".hiddenDataProject1").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- Clothes Log -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject1 {
+                                    display: none;
+                                }
+                            </style>
+                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject1">Description</h3>
+                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                            </div>
+                            <div class="hiddenDataProject1">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>This entire application was designed and programmed by myself.</p>
+                                    <h3>Links</h3>
+                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                </div>
+                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
+                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject1").click(function(){
+                                        $(".hiddenDataProject1").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- Clothes Log -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject1 {
+                                    display: none;
+                                }
+                            </style>
+                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject1">Description</h3>
+                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                            </div>
+                            <div class="hiddenDataProject1">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>This entire application was designed and programmed by myself.</p>
+                                    <h3>Links</h3>
+                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                </div>
+                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
+                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject1").click(function(){
+                                        $(".hiddenDataProject1").slideToggle();
+                                    });
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
