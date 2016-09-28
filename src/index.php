@@ -168,17 +168,48 @@ This file except where otherwise noted is copyright by Alex Watkins.
                         <!-- Robo Jackets -->
                         <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
                             <style type="text/css" >
-                                .hiddenDataProject1 {
+                                .hiddenDataProject4 {
+                                    display: none;
+                                }
+                            </style>
+                            <img src="images/logos/robojacketslogo.png" style="max-width: 350px;"/>
+                            <span id="clickMeProject4" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject4">Description</h3>
+                                <p>Robojackets is the main Georgia Tech robotics club. I worked on the roboracing team. Our goal was to create an autonomous robot that would both race around a race track and race in a drag race. The robot used both a camera, LIDAR, and other sensors to gather information. The robot ran on an NVIDIA Jetson running ROS (Robot Operating System).</p>
+                            </div>
+                            <div class="hiddenDataProject4">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>I worked on the programming team and was primarily in charge of two algorithms. One involved an algorithm that used the camera to do a computer vision algorithm in order to watch the stop light that starts the race. The other algorithm I worked on was another computer vision algorithm that detected whether the robot had crossed the finish line.</p>
+                                    <h3>Links</h3>
+                                    <p><a href="http://robojackets.org">RoboJackets Website</a></p>
+                                    <p><a href="http://robotracing.wordpress.com">IARRC (Robo Racing) Website</a></p>
+                                    <p>Code from this project is avaliable upon request.</p>
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject4").click(function(){
+                                        $(".hiddenDataProject4").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- Clothes Log -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject3 {
                                     display: none;
                                 }
                             </style>
                             <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
-                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <span id="clickMeProject3" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
-                                <h3 class="hiddenDataProject1">Description</h3>
+                                <h3 class="hiddenDataProject3">Description</h3>
                                 <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
                             </div>
-                            <div class="hiddenDataProject1">
+                            <div class="hiddenDataProject3">
                                 <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                     <h3>My Role</h3>
                                     <p>This entire application was designed and programmed by myself.</p>
@@ -196,50 +227,45 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             </div>
                             <script>
                                 $(document).ready(function(){
-                                    $("#clickMeProject1").click(function(){
-                                        $(".hiddenDataProject1").slideToggle();
+                                    $("#clickMeProject3").click(function(){
+                                        $(".hiddenDataProject3").slideToggle();
                                     });
                                 });
                             </script>
                         </div>
-                        <!-- Clothes Log -->
+                        <!-- Vertical Maze -->
                         <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
                             <style type="text/css" >
-                                .hiddenDataProject1 {
+                                .hiddenDataProject2 {
                                     display: none;
                                 }
                             </style>
                             <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
-                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <span id="clickMeProject2" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
-                                <h3 class="hiddenDataProject1">Description</h3>
-                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                                <h3 class="hiddenDataProject2">Description</h3>
+                                <p>Vertical maze is am iOS game where the user attempts to move a blue dot through a scrolling maze.</p>
                             </div>
-                            <div class="hiddenDataProject1">
+                            <div class="hiddenDataProject2">
                                 <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                     <h3>My Role</h3>
                                     <p>This entire application was designed and programmed by myself.</p>
                                     <h3>Links</h3>
-                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                    <p>This app is no longer on the app store. Contact me for the code.</p>
                                 </div>
                                 <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
-                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/verticalMaze/image1.jpeg" alt="Vertical Maze Screenshot" class="screenShotStyle" />
                                 </div>
                             </div>
                             <script>
                                 $(document).ready(function(){
-                                    $("#clickMeProject1").click(function(){
-                                        $(".hiddenDataProject1").slideToggle();
+                                    $("#clickMeProject2").click(function(){
+                                        $(".hiddenDataProject2").slideToggle();
                                     });
                                 });
                             </script>
                         </div>
-                        <!-- Clothes Log -->
+                        <!-- Convert Colors -->
                         <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
                             <style type="text/css" >
                                 .hiddenDataProject1 {
@@ -250,59 +276,17 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                 <h3 class="hiddenDataProject1">Description</h3>
-                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
+                                <p>Convert Colors is an iOS application that allows users to easily convert HTML colors codes between HEX, HSL, and RGB.</p>
                             </div>
                             <div class="hiddenDataProject1">
                                 <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                     <h3>My Role</h3>
                                     <p>This entire application was designed and programmed by myself.</p>
                                     <h3>Links</h3>
-                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
+                                    <p>Convert Colors has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
                                 </div>
                                 <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
-                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                </div>
-                            </div>
-                            <script>
-                                $(document).ready(function(){
-                                    $("#clickMeProject1").click(function(){
-                                        $(".hiddenDataProject1").slideToggle();
-                                    });
-                                });
-                            </script>
-                        </div>
-                        <!-- Clothes Log -->
-                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
-                            <style type="text/css" >
-                                .hiddenDataProject1 {
-                                    display: none;
-                                }
-                            </style>
-                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
-                            <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
-                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
-                                <h3 class="hiddenDataProject1">Description</h3>
-                                <p>Clothes Log is a cross platform application that allows users to organize clothes and decide what to wear. Clothes log is available as an application on the iOS App Store as well as a web application.</p>
-                            </div>
-                            <div class="hiddenDataProject1">
-                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
-                                    <h3>My Role</h3>
-                                    <p>This entire application was designed and programmed by myself.</p>
-                                    <h3>Links</h3>
-                                    <p>Clothes log has been removed from the app store and the web. Please contact me if you would like to see the code I wrote for this project.</p>
-                                </div>
-                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
-                                    <img src="images/clothesLog/image1.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image2.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image5.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image6.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image3.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
-                                    <img src="images/clothesLog/image4.png" alt="Clothes Log Screenshot" class="screenShotStyle" />
+                                    <img src="images/convertColors/image1.jpeg" alt="Convert Colors Screenshot" class="screenShotStyle" />
                                 </div>
                             </div>
                             <script>
