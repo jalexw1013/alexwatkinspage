@@ -143,7 +143,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                                     display: none;
                                 }
                             </style>
-                            <h1>High Performance Computing Research</h1>
+                            <h2>High Performance Computing Research</h2>
                             <span id="clickMeProject5" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                 <h3 class="hiddenDataProject5">Description</h3>
@@ -240,7 +240,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                                     display: none;
                                 }
                             </style>
-                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <h2>Vertical Maze</h2>
                             <span id="clickMeProject2" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                 <h3 class="hiddenDataProject2">Description</h3>
@@ -272,7 +272,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                                     display: none;
                                 }
                             </style>
-                            <img src="images/logos/clothesLogLogo.png" style="max-width: 350px;"/>
+                            <img src="images/logos/convertColorsLogo.gif" style="max-width: 350px;"/>
                             <span id="clickMeProject1" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                 <h3 class="hiddenDataProject1">Description</h3>
@@ -312,6 +312,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             <p>Candidate for Bachelor of Science in Computer Science</p>
                             <p>Expected graduation in May, 2019</p>
                             <p>Threads: Intelligence, Systems, and Architecture</p>
+                            <p>CS GPA: 4.0/4.0</p>
                         </div>
                         <br />
                         <div class="contentItemPadder">
@@ -331,9 +332,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                     <div class="experienceContainer">
                         <h1 class="center">Experience</h1>
                         <div class="contentItemPadder">
-                            <a class="nexuscraftLogoStyle" href="http://www.nexuscraft.biz" target="_blank">
-                                Nexus Craft
-                            </a>
+                            <h2>Nexus Craft</h2>
                             <br />
                             <p>Manager of self owned software company</p>
                             <p>Developed web and mobile based applications.</p>
@@ -345,12 +344,6 @@ This file except where otherwise noted is copyright by Alex Watkins.
                     <a id="activities" class="navLinkTarget"></a>
                     <div class="experienceContainer">
                         <h1 class="center">Activities</h1>
-                        <div class="contentItemPadder">
-                            <a href="http://www.robojackets.org/" target="_blank">
-                                <img src="images/logos/robojacketslogo.png" class="center widthLimiter" alt="Clothes Log" />
-                            </a>
-                            <p>Programmer for the RoboRacing team on the Georgia Tech RoboJackets</p>
-                        </div>
                         <div class="contentItemPadder">
                             <a href="http://www.vexrobotics.com/" target="_blank">
                                 <img src="images/logos/vexLogo.png" class="center widthLimiter" alt="Vex Robotics" />
@@ -370,17 +363,17 @@ This file except where otherwise noted is copyright by Alex Watkins.
                     <div class="experienceContainer">
                         <h1 class="titleSpecialCenter">Programming Experience</h1>
                         <div class="contentItemPadder">
-                            <img src="images/languages/objC.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Objective C" />                      
-                            <img src="images/languages/swift.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Swift" />                       
                             <img src="images/languages/java.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Java" />                      
                             <img src="images/languages/c.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="C" />                       
                             <img src="images/languages/html.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="HTML" />                       
                             <img src="images/languages/css.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="CSS" />                        
-                            <img src="images/languages/js.jpg" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="JavaScript" />                        
-                            <img src="images/languages/php.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="PHP" />                       
-                            <img src="images/languages/robotc.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="ROBOTC" />
+                            <img src="images/languages/python.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Python" />                        
+                            <img src="images/languages/objC.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Objective C" />                      
+                            <img src="images/languages/swift.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="Swift" />                       
                             <img src="images/languages/mysql.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="MySql" />
-                            <img src="images/languages/jquery.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="JQuery" />
+                            <img src="images/languages/js.jpg" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="JavaScript" />                       
+                            <img src="images/languages/php.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="PHP" />                       
+                            <img src="images/languages/cplusplus.png" class="widthLimiterSmall heightLimiterLarge imageBorder" alt="C++" />
                         </div>
                     </div>
                 </div>
