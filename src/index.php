@@ -44,7 +44,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             <li><a class="navLink" href="#activities">Activities</a></li>
                             <li><a class="navLink" href="#programming">Programming</a></li>
                             <li><a class="navLink" href="#contact">Contact</a></li>
-                            <li><a class="navLink" target="_blank" href="resume.pdf?version4=">Resume</a></li>
+                            <li><a class="navLink" target="_blank" href="resume.pdf?version=4">Resume</a></li>
                         </ul>
                         <div class="socialBtnPadder">
                             <a class="btn btn-social-icon btn-linkedin" target="_blank" href="http://www.linkedin.com/in/alexwatkins2">
