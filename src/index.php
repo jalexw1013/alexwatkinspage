@@ -139,22 +139,56 @@ This file except where otherwise noted is copyright by Alex Watkins.
                         <!-- HPC Reaearch -->
                         <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
                             <style type="text/css" >
-                                .hiddenDataProject5 {
+                                .hiddenDataProject6 {
                                     display: none;
                                 }
                             </style>
                             <h2>High Performance Computing Research</h2>
-                            <span id="clickMeProject5" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <span id="clickMeProject6" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
                             <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
-                                <h3 class="hiddenDataProject5">Description</h3>
+                                <h3 class="hiddenDataProject6">Description</h3>
                                 <p>In this project I explored a new way to implement sorting algorithms using vector instructions, specifically the Intel AVX2 instruction set. Conventional implementations use the classical Batcher's algorithm. This approach adds significant overhead. I eliminated this overhead.</p>
                             </div>
-                            <div class="hiddenDataProject5">
+                            <div class="hiddenDataProject6">
                                 <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
                                     <h3>My Role</h3>
                                     <p>I worked on a team with one other undergrad and a professor on this project. Most code was implemented by myself then compared and deliberated with the rest of the team.</p>
                                     <h3>Links</h3>
                                     <p>This project can be viewed on <a href="http://github.com/ogreen/avx-sort">GitHub</a>. Please contact me for more information on this project.</p>
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#clickMeProject6").click(function(){
+                                        $(".hiddenDataProject6").slideToggle();
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <!-- H2Whoa -->
+                        <div style="font-size: 14px;margin-left: auto; margin-right: auto;">
+                            <style type="text/css" >
+                                .hiddenDataProject5 {
+                                    display: none;
+                                }
+                            </style>
+                            <h2>H<sub>2</sub>Whoa!</h2>
+                            <span id="clickMeProject5" style="display: block;"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span><a style="cursor: pointer">Click to See more</a></span>
+                            <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <h3 class="hiddenDataProject5">Description</h3>
+                                <p>This project was a shoot off of NASA's <a href="https://2015.spaceappschallenge.org/challenge/clean-water-mapping/">Clean Water Challenge</a>. In this project, my team and I developed a javafx application used to track water sources and water purity. This app is especially useful in third world countries where clean water is hard to find.</p>
+                            </div>
+                            <div class="hiddenDataProject5">
+                                <div style="max-width: 600px;margin-left: auto; margin-right: auto;">
+                                    <h3>My Role</h3>
+                                    <p>I worked on a 5 person team to develop this application. My job was to develop the backend of the application. I specifically worked with javafx screen controllers and data storage.</p>
+                                    <h3>Links</h3>
+                                    <p>This project will be available on my github upon completion</p>
+                                </div>
+                                <div class="imageSlider center" style="/*max-width: 1300px;*/margin: 50px 40px;">
+                                    <img src="images/h2whoa/image1.png" alt="h2whoa Screenshot" class="screenShotStyle" />
+                                    <img src="images/h2whoa/image2.png" alt="h2whoa Screenshot" class="screenShotStyle" />
+                                    <img src="images/h2whoa/image3.png" alt="h2whoa Screenshot" class="screenShotStyle" />
                                 </div>
                             </div>
                             <script>
@@ -311,7 +345,7 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             <br />
                             <p>Candidate for Bachelor of Science in Computer Science</p>
                             <p>Expected graduation in May, 2019</p>
-                            <p>Threads: Intelligence, Systems, and Architecture</p>
+                            <p>Threads: <a href="http://www.cc.gatech.edu/information-internetworks">Information Internetworks</a>, <a href="http://www.cc.gatech.edu/systems-architecture">Systems, and Architecture</a></p>
                             <p>CS GPA: 4.0/4.0</p>
                         </div>
                         <br />
@@ -352,8 +386,21 @@ This file except where otherwise noted is copyright by Alex Watkins.
                             <p>The team competed at a national competition</p>
                         </div>
                         <div class="contentItemPadder">
+                            <h2 class="center">service</h2>
                             <h3>Service Hours</h3>
-                            <p>Over 400 service hours served in high school via community service. This included volunteering at the YMCA, local homeless shelters, and other international aid organizations. I have also volunteered at local businesses and for colleges.</p>
+                            <p>Over 400 service hours served in high school and college via community service. Places I have volunteered:</p>
+                            <a href="http://ymca.org" target="_blank">
+                                <img class="center heightLimiter" src="images/logos/ymca.png" alt="YMCA" />
+                            </a>
+                            <a href="http://servantswithaheart.org" target="_blank">
+                                <img class="center heightLimiter" src="images/logos/servantsWithAHeart.jpg" alt="Servants With a Heart" />
+                            </a>
+                            <a href="http://atlantamission.org/" target="_blank">
+                                <img class="center heightLimiter" src="images/logos/atlMission.png" alt="The Atlanta Mission" />
+                            </a>
+                            <a href="http://www.libertyhealthcareandrehab.com/pavilionhealthcenter/" target="_blank">
+                                <img class="center heightLimiter" src="images/logos/thePavillion.png" alt="The Pavillion" />
+                            </a>
                         </div>
                     </div>
                 </div>
